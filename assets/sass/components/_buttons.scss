@@ -1,0 +1,30 @@
+.header__button {
+    display: none;
+}
+
+@include media-breakpoint-up(md) {
+    .header__button {
+        display: block;
+    }
+}
+
+.button--message {
+    font-family: $roboto;
+    font-weight: $regular;
+    font-size: $small;
+    background-color: #7debfa;
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    margin-right: 10px;
+}
+
+.button--follow {
+    font-family: $roboto;
+    font-weight: $regular;
+    font-size: $small;
+    background-color: #f24949;
+    padding: 10px 30px;
+    color: #fff;
+    border: none;
+}

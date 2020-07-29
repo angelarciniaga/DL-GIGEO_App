@@ -1,0 +1,25 @@
+.main__tittle {
+    font-family: $roboto;
+    font-weight: $medium;
+    font-size: $large;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.video__tittle {
+    font-family: $roboto;
+    font-weight: $bold;
+    font-size: $small;
+    margin-top: 10px;
+}
+
+.video__info {
+    font-family: $roboto;
+    font-weight: $medium;
+    font-size: $x-small;
+    color: darkgrey;
+}
+
+.video {
+    margin-bottom: 20px;
+}
